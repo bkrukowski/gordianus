@@ -6,8 +6,9 @@ namespace bkrukowski\TransparentEmail\Tests\Services;
 
 use bkrukowski\TransparentEmail\Emails\Email;
 use bkrukowski\TransparentEmail\Services\GmailCom;
+use PHPUnit\Framework\TestCase;
 
-class GmailComTest extends \PHPUnit_Framework_TestCase
+class GmailComTest extends TestCase
 {
     /**
      * @dataProvider providerGetPrimaryEmail

@@ -6,8 +6,9 @@ namespace bkrukowski\TransparentEmail\Tests\Services;
 
 use bkrukowski\TransparentEmail\Emails\Email;
 use bkrukowski\TransparentEmail\Services\YahooCom;
+use PHPUnit\Framework\TestCase;
 
-class YahooComTest extends \PHPUnit_Framework_TestCase
+class YahooComTest extends TestCase
 {
     /**
      * @dataProvider providerIsSupported

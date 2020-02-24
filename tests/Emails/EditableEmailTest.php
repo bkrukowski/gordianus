@@ -5,8 +5,9 @@ namespace bkrukowski\TransparentEmail\Tests\Emails;
 use bkrukowski\TransparentEmail\Emails\EditableEmail;
 use bkrukowski\TransparentEmail\Emails\Email;
 use bkrukowski\TransparentEmail\Emails\EmailInterface;
+use PHPUnit\Framework\TestCase;
 
-class EditableEmailTest extends \PHPUnit_Framework_TestCase
+class EditableEmailTest extends TestCase
 {
     /**
      * @dataProvider providerRemoveFromLocalPart

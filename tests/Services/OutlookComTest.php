@@ -6,8 +6,9 @@ namespace bkrukowski\TransparentEmail\Tests\Services;
 
 use bkrukowski\TransparentEmail\Emails\Email;
 use bkrukowski\TransparentEmail\Services\OutlookCom;
+use PHPUnit\Framework\TestCase;
 
-class OutlookComTest extends \PHPUnit_Framework_TestCase
+class OutlookComTest extends TestCase
 {
     /**
      * @dataProvider providerIsSupported

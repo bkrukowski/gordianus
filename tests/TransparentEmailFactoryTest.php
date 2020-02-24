@@ -7,8 +7,9 @@ namespace bkrukowski\TransparentEmail\Tests;
 use bkrukowski\TransparentEmail\Emails\Email;
 use bkrukowski\TransparentEmail\Emails\EmailInterface;
 use bkrukowski\TransparentEmail\TransparentEmailFactory;
+use PHPUnit\Framework\TestCase;
 
-class TransparentEmailFactoryTest extends \PHPUnit_Framework_TestCase
+class TransparentEmailFactoryTest extends TestCase
 {
     /**
      * @dataProvider providerExpectedEmail

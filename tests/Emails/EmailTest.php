@@ -6,8 +6,9 @@ namespace bkrukowski\TransparentEmail\Tests\Emails;
 
 use bkrukowski\TransparentEmail\Emails\Email;
 use bkrukowski\TransparentEmail\Emails\InvalidEmailException;
+use PHPUnit\Framework\TestCase;
 
-class EmailTest extends \PHPUnit_Framework_TestCase
+class EmailTest extends TestCase
 {
     /**
      * @dataProvider providerConstructor

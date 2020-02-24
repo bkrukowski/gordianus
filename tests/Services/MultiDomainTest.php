@@ -6,8 +6,9 @@ namespace bkrukowski\TransparentEmail\Tests\Services;
 
 use bkrukowski\TransparentEmail\Emails\Email;
 use bkrukowski\TransparentEmail\Services\MultiDomain;
+use PHPUnit\Framework\TestCase;
 
-class MultiDomainTest extends \PHPUnit_Framework_TestCase
+class MultiDomainTest extends TestCase
 {
     /**
      * @dataProvider providerIsSupported

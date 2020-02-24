@@ -6,8 +6,9 @@ namespace bkrukowski\TransparentEmail\Tests\Services;
 
 use bkrukowski\TransparentEmail\Emails\Email;
 use bkrukowski\TransparentEmail\Services\Www33MailCom;
+use PHPUnit\Framework\TestCase;
 
-class Www33MailComTest extends \PHPUnit_Framework_TestCase
+class Www33MailComTest extends TestCase
 {
     /**
      * @dataProvider providerIsSupported

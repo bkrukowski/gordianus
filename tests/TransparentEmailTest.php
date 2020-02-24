@@ -11,8 +11,9 @@ use bkrukowski\TransparentEmail\ServiceCollectorInterface;
 use bkrukowski\TransparentEmail\Services\TlenPl;
 use bkrukowski\TransparentEmail\TransparentEmail;
 use bkrukowski\TransparentEmail\TransparentEmailFactory;
+use PHPUnit\Framework\TestCase;
 
-class TransparentEmailTest extends \PHPUnit_Framework_TestCase
+class TransparentEmailTest extends TestCase
 {
     /**
      * @dataProvider providerGetPrimaryEmail

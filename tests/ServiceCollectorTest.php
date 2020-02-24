@@ -6,8 +6,9 @@ namespace bkrukowski\TransparentEmail\Tests;
 
 use bkrukowski\TransparentEmail\ServiceCollector;
 use bkrukowski\TransparentEmail\Services\ServiceInterface;
+use PHPUnit\Framework\TestCase;
 
-class ServiceCollectorTest extends \PHPUnit_Framework_TestCase
+class ServiceCollectorTest extends TestCase
 {
     public function testAddService()
     {
